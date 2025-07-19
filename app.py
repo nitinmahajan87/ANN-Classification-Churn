@@ -21,7 +21,7 @@ with open('scaler.pkl','rb') as file:
 
 ## Streamlit app
 
-st.title('Custoomer Churn Prediction')
+st.title('Customer Churn Prediction')
 
 #User Input
 geography = st.selectbox('Geography', label_encoder_geo.categories_[0])
